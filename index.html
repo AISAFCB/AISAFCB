@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> mi primera web </title>
+    <style>
+        table, th, td { border: 1px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;"> 
+        <thead> <tr>
+            <th>
+                precio
+            </th>
+            <th>
+                producto
+            </th>
+            <tr>
+
+        </thead>
+        <tbody>
+             <tr>    
+                <td> hola beats</td>
+                <td> gratis</td>    
+             </tr>
+            <tr>
+                <td> bateria </td>
+                <td> 599,99$</td>    
+            </tr>
+        </tbody>
+        <tfoot style="width: 450px;">
+            <td>2 Productos</td>
+            <td>599,99$</td>
+        </tfoot>
+        
+    </table>
+    <!-- ul es lista no ordenada-->
+    <!--li es link item o items de la lista-->
+    <ul> 
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ul>
+    <ol>
+        <li value="36">elemento 1</li>
+        <li value="11">elemento 2</li>
+        <li value="1">elemento 3</li>
+        <li>elemento 4</li>
+        <li value="especial"> elemnto 5
+            <ol>
+                <li style="list-style-type: lower-roman;"> que lio de codigo </li>
+                <li style="list-style-type:decimal;"> que lio de codigo </li>
+                <li style="list-style-type:lower-alpha;"> que lio de codigo </li>
+            </ol>
+        </li>
+    </ol>
+    <h1>
+        mi primer heading
+    </h1>
+    <hr>
+    <p>
+        parrafo de prueba hoy es <span style="color: blueviolet;"> 14 de mayo de 2024 </span> 
+    </p>
+    <!--algo que no se ve para el publico pero si para los programadores-->
+    <a target="_blank" href="https://www.youtube.com/watch?v=MJkdaVFHrto&list=PLScqwv7ycETct1VIsMQd-AnP0UBEhli5M"> el curso con el que he aprendido esto </a>
+    <img src="logo1.jpg" width="400" />
+    <p>
+        
+        <img src="https://www.google.com/imgres?q=xiaomi%20su7&imgurl=https%3A%2F%2Fcdn.autobild.es%2Fsites%2Fnavi.axelspringer.es%2Fpublic%2Fmedia%2Fimage%2F2024%2F03%2Fxiaomi-su7-3287186.jpg%3Ftf%3D3840x&imgrefurl=https%3A%2F%2Fwww.autobild.es%2Fnoticias%2Fparece-propietarios-xiaomi-su7-cuesta-domar-673-cv-ya-han-dado-primeros-accidentes-1378286&docid=8xoBeRYW8_MWhM&tbnid=gKq_VjEUfUZyrM&vet=12ahUKEwjazfGGw42GAxX6g_0HHVRMCYAQM3oECFAQAA..i&w=3840&h=2160&hcb=2&ved=2ahUKEwjazfGGw42GAxX6g_0HHVRMCYAQM3oECFAQAA" />
+    </p>
+    <form action="/formulario" method="post">
+        <input type="submit" />
+        <label for="nombre">nombre</label>
+        <input id="nombre" name="nombre" placeholder="nombre" />
+        <button type="button"> boton </button>
+        <button type="submit"> enviar </button>
+        <button type="reset"> reset </button>
+        <hr>
+        <textarea rows="10" name="comentario" id="comentario" placeholder="escribe algo porfa"></textarea>
+        
+    </form>
+</body>
+</html>
